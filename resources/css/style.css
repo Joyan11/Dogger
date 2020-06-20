@@ -1,0 +1,353 @@
+/* colors */
+
+/* #a2c0be */
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+
+html,body{
+    font-size: 16px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    word-spacing: 1.5px;
+    letter-spacing: 0.5px;
+    line-height: 1.2;
+    /* quality of text over speed */
+    text-rendering: optimizeLegibility;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+
+.row {
+    max-width: 1140px;
+    margin: 0 auto;
+  }
+
+
+  /* header */
+header{
+    background-color: #f8f9fa ;
+    height: 100vh;
+    overflow: hidden;
+}
+
+/* lofo text */
+.logo{
+    float: left;
+    font-size: 2.2em;
+    font-weight: 400;
+    margin-top: 30px;
+}
+.logo a{
+    color: #000;
+    text-decoration: none;
+}
+
+
+
+/* navigation */
+
+
+.main-nav{
+    float:right;
+    list-style: none;
+    margin-top: 40px;
+}
+
+.main-nav li {
+    display: inline-block;
+    margin-left: 40px;
+  }
+
+
+.main-nav li a:link,
+.main-nav li a:visited{
+ font-size: 1em;
+ font-weight: 400;
+  color: rgba(0, 0, 0, 0.7) !important;
+  padding-bottom: 5px;
+  text-decoration: none;
+  text-transform: uppercase;
+  border-bottom: 2px solid transparent;
+  transition: border-bottom 0.3s ease;
+}
+
+.main-nav li a:hover,
+.main-nav li a:active{
+    border-bottom: 2px solid gray;
+}
+
+
+
+
+
+
+/* Header section */
+.heading{
+    position: absolute;
+    top: 30%;
+    left:10%;
+    width: 500px;
+}
+
+.heading h1{
+    font-size: 4em;
+    font-weight: 700;
+}
+
+.heading p{
+    font-size: 1.5em;
+    font-weight: 200;
+}
+
+.dog-image{
+    position: relative;
+    top: 15%;
+    left:60%;
+}
+img{
+   width: 31%;
+   height: auto;
+   
+}
+
+
+
+/* Section 1 - Text */
+
+
+.first{
+    text-align: center;
+    line-height: 1.5;
+    margin-top: 6%;
+    margin-bottom: 2%;
+}
+.first .paw{
+    font-size: 30px;
+    color: #a2c0be;
+    
+   
+}
+
+.first h2{
+    font-weight: 700;
+    font-size: 2em;
+    word-spacing: 2px;
+    margin-bottom: 10px;
+}
+
+.first p{
+    font-size: 1.1em;
+    font-weight: 500;
+    max-width:50%;
+    margin-left: 25%;
+    color: grey;
+}
+
+
+
+
+/* Introduction */
+
+
+.info{
+        border: none;
+        height: 400px;
+        /* width: 200px; */
+}
+
+.right{
+    text-align: right;
+    padding-right:4%;
+    padding-top: 8%;
+}
+
+.left{
+    text-align: left;
+    padding-left:8.5%;
+    padding-top: 8%;
+}
+
+.text-info{
+    width:90%;
+    
+}
+
+.text-info h2{
+    font-weight: 500;
+    font-size: 2em;
+}
+
+.text-info p{
+    margin-top: 10px;
+    color: grey;
+    line-height: 1.7;
+    font-weight: 500;
+    font-size: 1.1em;
+}
+
+
+
+/* Buttons  */
+.text-info a{
+    display: inline-block;
+    margin-top: 50px;
+    text-decoration: none;
+    border: none;
+    padding:14px 30px;
+    border-radius: 200px;
+    color: white;
+    background-color: #a2c0be;
+    font-weight: 500;
+    transition: background-color 0.2s, border 0.2s, color 0.2s;
+}
+
+.text-info a:hover,
+.text-info a:active{
+    background-color: rgb(110, 108, 108);
+}
+
+
+
+/* Images in introduction */
+.one{
+    background-image: url(images/dogger_img_sm_3.jpg);
+    background-size: cover;
+}
+.two{
+    background-image: url(images/dogger_img_sm_1.jpg);
+    background-size: cover;
+}
+.three{
+    background-image: url(images/dogger_img_sm_2.jpg);
+    background-size: cover;
+}
+
+
+
+
+
+/* About Section*/
+#about-section{
+    padding-top: 100px;
+}
+
+.about .col{
+    height: 700px;
+}
+
+.about-container{
+    
+    width:450px;
+    line-height: 1.5;
+    font-weight: 300;
+    margin-left: 30px;
+    margin-top: 150px;
+}
+
+.about-text h2{
+    font-size: 2em;
+    margin-bottom: 12px;
+    text-transform: uppercase;
+}
+
+.para-1{
+    font-size: 1.3em;
+    color: gray;
+    font-weight: 300;
+    margin-bottom: 13px;
+}
+
+.para-2{
+    font-weight: 350;
+    font-size: 1.1em;
+    color: #555555;
+    margin-bottom: 25px;
+}
+
+.list-view{
+    font-weight: 350;
+    font-size: 1.1em;
+    color: #6c757d;
+
+}
+
+.list{
+    padding-bottom: 13px;
+}
+
+.paw-1{
+    font-size: 33px;
+    color: #a2c0be;
+    display: inline-block;
+    margin-left: 40px;
+}
+
+.paw-2{
+    font-size: 20px;
+    /* display: inline-block; */
+    color: #a2c0be;
+    padding-right: 20px;
+}
+
+.about-pic{
+    background-image: url(images/dogger_img_big_1.jpg);
+    background-size: cover;
+    
+}
+
+/* Trainers */
+
+
+#trainers{
+    background-color: #a2c0be !important;
+}
+
+
+.second{
+    text-align: center;
+    line-height: 1.5;
+    margin-top: 6%;
+    margin-bottom: 2%;
+}
+.second .paw3{
+    font-size: 30px;
+    color: white;
+    padding-bottom: 20px;
+}
+
+.second h2{
+    font-weight: 700;
+    font-size: 2em;
+    word-spacing: 2px;
+    margin-bottom: 10px;
+}
+
+.second p{
+    font-size: 1.1em;
+    font-weight: 300;
+    max-width:50%;
+    margin-left: 25%;
+    color: grey;
+}
+
+.test{
+    border: 1px solid black;
+}
+
+figure img{
+    width: 365px;
+}
+
+
+
+
+
+
